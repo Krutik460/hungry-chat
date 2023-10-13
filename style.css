@@ -64,7 +64,7 @@ body {
 }
 
 /* Set styles for the menu icon */
-#home-nav button {
+#home-nav #contact-us {
   margin-top: 2px;
   font-size: 2.25vh;
   font-weight: 600;
@@ -177,13 +177,13 @@ body {
 #f-img .img-itms {
   width: 90%;
   height: 80%;
-  background-color: green;
 }
 
 #f-img .img-itms img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 #hiw {
@@ -216,9 +216,14 @@ body {
 #steps .step .step-img {
   width: 100%;
   height: 20vw;
-  background-color: green;
   overflow: hidden;
   border-radius: 10px;
+}
+
+#steps .step .step-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #steps .step h1 {
