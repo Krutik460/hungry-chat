@@ -31,7 +31,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 30px 50px;
+  padding: 3vh 5vw;
 }
 
 /* Set styles for links in the navigation bar */
@@ -46,7 +46,7 @@ body {
 #home-nav #nav-menu {
   display: flex;
   align-items: center;
-  gap: 3vh;
+  gap: 3vw;
 }
 
 /* Set styles for links in the menu */
@@ -62,4 +62,44 @@ body {
 #home-nav i {
   margin-top: 2px;
   font-size: 2.5vh;
+}
+
+#home #home-hero {
+  width: 100%;
+  padding: 25vh 14vw;
+}
+
+#home-hero h1 {
+  font-weight: 400;
+  font-size: 3vw;
+  letter-spacing: -0.1vw;
+}
+
+.headings {
+  display: flex;
+  gap: 1.25vw;
+}
+
+#home-hero .headings h1 {
+  color: transparent;
+  -webkit-text-stroke: 1px #000000;
+  font-size: 4.9vw;
+  font-weight: 900;
+  letter-spacing: -0.1vw;
+  line-height: 1.5;
+}
+
+#home-para {
+  padding: 1vh 14vw;
+}
+
+#home-para p {
+  font-size: 1.9vw;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+#home-para p::selection {
+  background-color: #000000;
+  color: #ffffff;
 }
