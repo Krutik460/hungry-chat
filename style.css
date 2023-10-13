@@ -59,9 +59,15 @@ body {
 }
 
 /* Set styles for the menu icon */
-#home-nav i {
+#home-nav button {
   margin-top: 2px;
-  font-size: 2.5vh;
+  font-size: 2.25vh;
+  font-weight: 600;
+  word-spacing: -0.5px;
+  padding: 1vw 2vw;
+  border-radius: 100px;
+  border: #fdf2f2 2px solid;
+  background-color: white;
 }
 
 #home #home-hero {
@@ -83,23 +89,82 @@ body {
 #home-hero .headings h1 {
   color: transparent;
   -webkit-text-stroke: 1px #000000;
-  font-size: 4.9vw;
+  font-size: 5vw;
   font-weight: 900;
   letter-spacing: -0.1vw;
-  line-height: 1.5;
+  line-height: 6vw;
 }
 
 #home-para {
-  padding: 1vh 14vw;
+  padding: 5vh 14vw;
 }
 
 #home-para p {
   font-size: 1.9vw;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 2.75vw;
 }
 
 #home-para p::selection {
   background-color: #000000;
   color: #ffffff;
+}
+
+#features {
+  padding: 2vw 14vw;
+}
+
+#features h1 {
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+#f-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  margin-top: 5vw;
+}
+
+#f-text {
+  overflow: hidden;
+  width: 40%;
+  height: inherit;
+}
+
+#f-text .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: inherit;
+}
+
+#f-text .text h1 {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: capitalize;
+  margin: 2vw 0;
+}
+#f-text .text h4 {
+  font-size: 1.9vw;
+  font-weight: 500;
+  line-height: 2.75vw;
+  opacity: 0.5;
+}
+
+#f-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 60%;
+  height: inherit;
+}
+
+#f-img .images {
+  width: 90%;
+  height: 80%;
+  background-color: green;
 }
