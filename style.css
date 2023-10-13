@@ -13,6 +13,11 @@ body {
   height: 100%;
 }
 
+::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 /* Set styles for the main container */
 #main {
   width: 100%;
@@ -66,8 +71,9 @@ body {
   word-spacing: -0.5px;
   padding: 1vw 2vw;
   border-radius: 100px;
-  border: #fdf2f2 2px solid;
-  background-color: white;
+  border: #000000 2px solid;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 #home #home-hero {
@@ -95,6 +101,10 @@ body {
   line-height: 6vw;
 }
 
+#home-hero .headings h1:hover {
+  color: #000000;
+}
+
 #home-para {
   padding: 5vh 14vw;
 }
@@ -103,11 +113,6 @@ body {
   font-size: 1.9vw;
   font-weight: 500;
   line-height: 2.75vw;
-}
-
-#home-para p::selection {
-  background-color: #000000;
-  color: #ffffff;
 }
 
 #features {
@@ -129,7 +134,7 @@ body {
 
 #f-text {
   overflow: hidden;
-  width: 40%;
+  width: 45%;
   height: inherit;
 }
 
@@ -141,30 +146,129 @@ body {
   height: inherit;
 }
 
+#f-text .text h3 {
+  font-size: 1.9vw;
+  font-weight: 600;
+  text-transform: lowercase;
+  /* margin: 2vw 0; */
+}
+
 #f-text .text h1 {
   font-size: 3vw;
   font-weight: 600;
   line-height: 1;
   text-transform: capitalize;
-  margin: 2vw 0;
+  margin: 1vw 0 2vw 0;
 }
 #f-text .text h4 {
-  font-size: 1.9vw;
-  font-weight: 500;
-  line-height: 2.75vw;
-  opacity: 0.5;
+  font-size: 1.75vw;
+  font-weight: 400;
+  line-height: 2.25vw;
 }
 
 #f-img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 60%;
+  width: 50%;
   height: inherit;
 }
 
-#f-img .images {
+#f-img .img-itms {
   width: 90%;
   height: 80%;
   background-color: green;
+}
+
+#f-img .img-itms img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#hiw {
+  width: 100%;
+  padding: 5vw 14vw;
+}
+
+#hiw h1 {
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+#hiw p {
+  font-size: 1.9vw;
+  font-weight: 500;
+  line-height: 2.75vw;
+}
+
+#steps {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 0;
+}
+
+#steps .step {
+  width: 30%;
+  height: 100%;
+}
+
+#steps .step .step-img {
+  width: 100%;
+  height: 20vw;
+  background-color: green;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#steps .step h1 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: capitalize;
+  margin: 2vw 0;
+}
+
+#steps .step p {
+  font-size: 1.35vw;
+  font-weight: 500;
+  line-height: 2.25vw;
+}
+
+#footer {
+  width: 100%;
+  padding: 3vw 20vw;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  padding: 2vw 0 3vw;
+}
+
+#footer-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 2.25vh;
+  word-spacing: -0.5px;
+}
+
+#footer-copywrite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+#footer-copywrite a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 2.25vh;
+  margin: 1.5px 0 0 3px;
 }
