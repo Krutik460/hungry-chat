@@ -220,6 +220,11 @@ body {
   border-radius: 10px;
 }
 
+#steps i {
+  margin-top: 9.5vw;
+  font-size: 2.5vw;
+}
+
 #steps .step .step-img img {
   width: 100%;
   height: 100%;
