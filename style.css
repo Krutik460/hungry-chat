@@ -150,14 +150,13 @@ body {
   font-size: 1.9vw;
   font-weight: 600;
   text-transform: lowercase;
-  /* margin: 2vw 0; */
 }
 
 #f-text .text h1 {
   font-size: 3vw;
   font-weight: 600;
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: lowercase;
   margin: 1vw 0 2vw 0;
 }
 #f-text .text h4 {
@@ -235,7 +234,7 @@ body {
   font-size: 2.5vw;
   font-weight: 600;
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: lowercase;
   margin: 2vw 0;
 }
 
